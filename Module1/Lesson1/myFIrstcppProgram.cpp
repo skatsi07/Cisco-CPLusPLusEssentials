@@ -2,6 +2,8 @@
 
 using namespace std;
 int main(void) {
-  cout << "It's me, your first program.";
+  cout << "Hello Simon it is me, the computer\n";
+  cout << endl;
+  cout << "What do you want to learn today?";
   return 0;
 }
