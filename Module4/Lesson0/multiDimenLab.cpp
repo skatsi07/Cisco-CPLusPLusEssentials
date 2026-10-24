@@ -26,7 +26,7 @@ int main(void) {
             int grade = 0;
             cin >> grade;
             gradeSum += grade;
-            grades[i][j+1] = grade;
+            grades[i][j] = grade;
         }
 
         classAvg[i] = float(gradeSum/n);
